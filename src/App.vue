@@ -6,7 +6,6 @@
         <button @click="handleClick('salary')">order by salary</button>
         <button @click="handleClick('location')">order by location</button>
       </div>
-      <p class="">Ordered by {{ order }}</p>
     </header>
     <JobList :jobs="jobs" :order="order" />
   </div>
